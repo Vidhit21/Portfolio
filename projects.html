@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Vidhit Patel</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="../js/theme.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Vidhit Patel</div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                    <i id="theme-icon" class="fas fa-moon"></i>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="project-header">
+        <div class="header-content">
+            <h1>My Projects</h1>
+            <p class="subheading">Showcasing My Work and Expertise</p>
+            <a href="contact.html" class="cta-button">Let's Collaborate</a>
+        </div>
+    </header>
+
+    <main class="projects-container">
+        <section class="featured-projects">
+            <h2>Featured Projects</h2>
+            <div class="featured-grid">
+                <article class="featured-card">
+                    <div class="project-image">
+                        <img src="images/quickfixers.jpg" alt="QuickFixers Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>QuickFixers - Service Provider Web Application</h3>
+                        <p>A comprehensive web application offering repairmen, electricians, home cleaning, and other home/office services with multiple dashboard interfaces.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="repo-link"><i class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="project-filters">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+        </section>
+
+        <section class="all-projects">
+            <div class="projects-grid">
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/edutech.jpg" alt="EduTech Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>EduTech - Online Learning Platform</h3>
+                        <p>A single-page website providing educational resources with categorized tutorials and interactive navigation.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="repo-link"><i class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/skillserv.jpg" alt="SkillServ Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>SkillServ - Clean Water Project</h3>
+                        <p>A front-end project focusing on spreading awareness and providing resources for clean water and sanitation.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="repo-link"><i class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="images/dashboard.jpg" alt="Dashboard Design">
+                    </div>
+                    <div class="project-content">
+                        <h3>Dynamic Dashboard Design</h3>
+                        <p>Created three types of dashboards with clean interfaces and real-time data updates.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="repo-link"><i class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:pvidhit21@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Vidhit Patel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
