@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidhit Patel - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="js/theme.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand">Vidhit Patel</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/services.html">Services</a></li>
+            <li><a href="pages/blog.html">Blog</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                    <i id="theme-icon" class="fas fa-moon"></i>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Turning Ideas into Digital Reality</h1>
+            <p class="tagline">Full Stack Developer & Tech Innovator</p>
+            <p class="intro">Crafting innovative digital solutions with expertise in Web Development, Python, and UI/UX Design.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="pages/contact.html" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-section.png" alt="Vidhit Patel - Developer" class="animate-on-scroll">
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="about-text">As a passionate Full Stack Developer, I combine creativity with technical expertise to build seamless digital experiences. My journey in technology is driven by a commitment to creating innovative solutions that make a real impact.</p>
+            <a href="pages/about.html" class="btn btn-primary">Learn More About Me</a>
+        </div>
+    </section>
+
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Offered Services</h2>
+                <p>Professional solutions for your digital needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-inner">
+                        <div class="service-front">
+                            <i class="fas fa-code service-icon"></i>
+                            <h3>Web Development</h3>
+                            <p>Building dynamic, responsive websites with modern technologies and best practices.</p>
+                        </div>
+                        <div class="service-back">
+                            <h4>Technologies</h4>
+                            <ul>
+                                <li>HTML5 & CSS3</li>
+                                <li>JavaScript & React</li>
+                                <li>Node.js & Express</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                            <a href="/pages/services.html" class="btn-learn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div class="service-inner">
+                        <div class="service-front">
+                            <i class="fab fa-python service-icon"></i>
+                            <h3>Python Development</h3>
+                            <p>Creating efficient Python applications and automation solutions.</p>
+                        </div>
+                        <div class="service-back">
+                            <h4>Expertise</h4>
+                            <ul>
+                                <li>Data Analysis</li>
+                                <li>Web Scraping</li>
+                                <li>API Development</li>
+                                <li>Automation Scripts</li>
+                            </ul>
+                            <a href="/pages/services.html" class="btn-learn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div class="service-inner">
+                        <div class="service-front">
+                            <i class="fas fa-paint-brush service-icon"></i>
+                            <h3>UI/UX Design</h3>
+                            <p>Designing intuitive and visually appealing user interfaces.</p>
+                        </div>
+                        <div class="service-back">
+                            <h4>Design Skills</h4>
+                            <ul>
+                                <li>User Research</li>
+                                <li>Wireframing</li>
+                                <li>Prototyping</li>
+                                <li>Visual Design</li>
+                            </ul>
+                            <a href="/pages/services.html" class="btn-learn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div class="service-inner">
+                        <div class="service-front">
+                            <i class="fab fa-android service-icon"></i>
+                            <h3>Android Development</h3>
+                            <p>Developing efficient and user-friendly mobile applications.</p>
+                        </div>
+                        <div class="service-back">
+                            <h4>Features</h4>
+                            <ul>
+                                <li>Native Android Apps</li>
+                                <li>Material Design</li>
+                                <li>API Integration</li>
+                                <li>Performance Optimization</li>
+                            </ul>
+                            <a href="/pages/services.html" class="btn-learn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div class="service-inner">
+                        <div class="service-front">
+                            <i class="fas fa-laptop-code service-icon"></i>
+                            <h3>Software Design</h3>
+                            <p>Engineering robust and scalable software solutions.</p>
+                        </div>
+                        <div class="service-back">
+                            <h4>Specialties</h4>
+                            <ul>
+                                <li>System Architecture</li>
+                                <li>Database Design</li>
+                                <li>Cloud Solutions</li>
+                                <li>Security Implementation</li>
+                            </ul>
+                            <a href="/pages/services.html" class="btn-learn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects section" id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <img src="images/MCQS-1.jpg" alt="MCQ's Converter">
+                    <div class="project-content">
+                        <h3>MCQ's Converter</h3>
+                        <p class="tech-stack">Technology: Python</p>
+                        <p>Converts text into a fixed, formatted Word file with ease.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <img src="images/edutechscope.jpg" alt="EduTechScope">
+                    <div class="project-content">
+                        <h3>EduTechScope</h3>
+                        <p class="tech-stack">Technology: HTML, CSS, Bootstrap, JavaScript</p>
+                        <p>A free resource platform to support learning and education.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <img src="images/onliine-auction.jpg" alt="Online Auction System">
+                    <div class="project-content">
+                        <h3>Online Auction System</h3>
+                        <p class="tech-stack">Technology: HTML, CSS, JavaScript, Bootstrap, PHP</p>
+                        <p>A live auction system to facilitate real-time bidding.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/services.html">Services</a></li>
+                    <li><a href="pages/blog.html">Blog</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> admin@vidhitpatel.tech</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Samta-subhanpura, Vadodara, Gujarat, India 390023</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
